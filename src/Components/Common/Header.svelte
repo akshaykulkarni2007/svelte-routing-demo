@@ -1,1 +1,6 @@
-<h4>header</h4>
+<script>
+  import { Navigate } from "svelte-router-spa";
+</script>
+
+<Navigate to="/">Home</Navigate>
+<Navigate to="/about">About</Navigate>

@@ -1,5 +1,6 @@
 <script>
-  import Layout from "./Components/Common/Layout.svelte";
+  import { Router } from "svelte-router-spa";
+  import { routes } from "./Routes";
 </script>
 
-<Layout />
+<Router {routes} />
